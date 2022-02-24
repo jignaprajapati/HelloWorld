@@ -20,7 +20,7 @@ public class SPeedConverter {
     }
 
     public static long toMilesPerHour(double kilometersPerHour){
-        if(kilometersPerHour&lt;0d){
+        if(kilometersPerHour<0){
             return-1;
 
         }
@@ -28,7 +28,7 @@ public class SPeedConverter {
     }
 
     public static void printConversion(double kilometersPerHour){
-        if(kilometerPerHour){
+        if(kilometersPerHour<0){
             System.out.println("Invalid Value");
             System.out.println("Invalid Value");
         }else{
